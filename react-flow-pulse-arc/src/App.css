@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  font-size: 600;
+  font-size: 18px;
+}
+
+.react-flow__panel.left {
+  color: black !important;
+}
+
+.flow-div {
+  margin: 10px;
+}
+
+.flow-div button {
+  margin: 0% 1%;
+}

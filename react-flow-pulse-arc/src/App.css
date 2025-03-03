@@ -23,3 +23,36 @@
 .flow-div button {
   margin: 0% 1%;
 }
+
+#Node1 {
+  border: 1px solid blue !important;
+}
+
+#Node2 {
+  border: 1px solid pink;
+}
+
+.react-flow__node.draggable {
+  background-color: rgb(145, 148, 148) !important;
+}
+
+.react-flow__node-selectorNode {
+  font-size: 12px;
+  background: #eee;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.react-flow__handle {
+  position: absolute;
+  pointer-events: none;
+  min-width: 5px;
+  min-height: 5px;
+  width: 21px !important;
+  height: 6px !important;
+  border-radius: 0 !important; 
+}
+.react-flow__edge-path {
+  stroke-dasharray: 6 4; 
+}

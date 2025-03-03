@@ -14,8 +14,6 @@ import "@xyflow/react/dist/style.css";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import './App.css';
-// import './tailwind-config.js';
-// import './tailwind.css';
 import CustomNode from './CustomNode';
 
 export const initialNodes = [
@@ -212,6 +210,7 @@ const FlowCanvas = ({
                 onDrop={onDrop}
                 onDragOver={onDragOver}
                 nodeTypes={nodeTypes}
+                className="bg-teal-50"
             >
                 <Background />
                 <Controls />

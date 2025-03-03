@@ -43,3 +43,16 @@
   border-radius: 5px;
   text-align: center;
 }
+
+.react-flow__handle {
+  position: absolute;
+  pointer-events: none;
+  min-width: 5px;
+  min-height: 5px;
+  width: 21px !important;
+  height: 6px !important;
+  border-radius: 0 !important; 
+}
+.react-flow__edge-path {
+  stroke-dasharray: 6 4; 
+}
